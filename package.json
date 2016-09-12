@@ -1,0 +1,14 @@
+{
+  "name": "photo-pi",
+  "version": "1.0.0",
+  "description": "A Photo Viewer for a RaspberryPi",
+  "main": "server.js",
+  "scripts": {
+  },
+  "author": "Tyler Rockwood <rockwotj@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "node-fetch": "^1.6.1"
+  }
+}
