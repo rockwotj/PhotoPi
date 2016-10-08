@@ -30,6 +30,9 @@ function getRandomPhoto() {
 
   // Use reservoir sampling to select a random photo from latest MAX_FILES
   while (photos.hasNext()) {
+    if (index > MAX_FILES) {
+      break;
+    }
     var samplePhoto = photos.next();
 
     if (Math.random() < (1.0/index)) {
